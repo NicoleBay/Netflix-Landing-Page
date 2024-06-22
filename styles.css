@@ -1,0 +1,116 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-font: Arial, sans-serif;
+  --primary-color: #e50914;
+  --background-color: #000000;
+  --text-color: #ffffff;
+  --subheading-color: #b3b3b3;
+  --button-bg-color: #e50914;
+  --button-hover-bg-color: #f40612;
+}
+
+body {
+  font-family: var(--text-font);
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+#header {
+  position: relative;
+  width: 100%;
+}
+
+#header-img {
+  max-height: 70px;
+  padding: 10px;
+}
+
+nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--button-bg-color);
+  border-radius: 5px;
+}
+
+#background-image {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/925/original/GB-en-20240617-popsignuptwoweeks-perspective_alpha_website_small.jpg?1719063356")
+    no-repeat center center;
+  background-size: cover;
+}
+
+#background-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#background-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  color: #ffffff;
+}
+
+#hero-img {
+  display: none;
+}
+
+.hero-text {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
