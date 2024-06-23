@@ -8,142 +8,145 @@
     <title>Netflix</title>
   </head>
   <body>
-    <header id="header">
-      <!-- Nav Section -->
-      <img
-        id="header-img"
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/917/original/Netflix-symbol-768x240.jpg?1719061055"
-        alt="Netflix Logo"
-      />
-      <nav id="nav-bar">
-        <ul>
-          <li><a class="nav-link" href="#features">Features</a></li>
-          <li><a class="nav-link" href="#pricing">Pricing</a></li>
-          <li><a class="nav-link sign-in" href="">Sign In</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- Hero Section -->
-    <section id="background-image">
-      <div id="image-div">
+    <div class="container">
+      <header id="header">
+        <!-- Nav Section -->
         <img
-          id="hero-img"
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/925/original/GB-en-20240617-popsignuptwoweeks-perspective_alpha_website_small.jpg?1719063356"
-          alt="Netflix shows"
+          id="header-img"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/917/original/Netflix-symbol-768x240.jpg?1719061055"
+          alt="Netflix Logo"
         />
-      </div>
-      <div id="background-content">
-        <h1 class="hero-text">Unlimited films, TV programmes and more</h1>
-        <h2 class="subheading">Watch anywhere. Cancel at any time.</h2>
-        <h3 class="get-started">
-          Ready to watch? Enter your email to create or restart your membership.
-        </h3>
-        <div class="form-container">
-          <form
-            aria-label="Ready to watch? Enter your email to create or restart your membership."
-            id="form"
-            action="https://www.freecodecamp.com/email-submit"
-          >
-            <input
-              name="email"
-              id="email"
-              type="email"
-              placeholder="Email address"
-              required=""
-              class="form-input"
-            />
-            <input
-              id="submit"
-              type="submit"
-              value="Get Started"
-              class="form-submit btn"
-            />
-          </form>
-        </div>
-      </div>
-    </section>
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="nav-link sign-in" href="">Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <!-- Features Section -->
-    <section id="features">
-      <div>
-        <h2 class="subheading-main">Enjoy everywhere</h2>
-        <p>
-          Stream unlimited films and TV programmes on your phone, tablet, laptop
-          and TV.
-        </p>
-      </div>
-      <div>
-        <img
-          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/904/original/Screenshot_2024-06-22_113847.png?1719052765"
-          alt="Streaming on multiple devices image"
-        />
-      </div>
-    </section>
-    <hr />
-    <section id="stories">
-      <div class="video-content">
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/c-4o_LnfNXI?si=Zi39bJrsQaQ5Q78Y"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          id="video"
-        ></iframe>
-      </div>
-      <div class="text-content">
-        <h2 class="subheading-main">Watch anywhere</h2>
-        <p>Watch on a plane, train or submarine...</p>
-      </div>
-    </section>
-    <hr />
-    <!-- Pricing Section -->
-    <section id="pricing">
-      <h2 class="subheading-main">Choose the plan that’s right for you</h2>
-      <div>
-        <div>
-          <h3>Standard with adverts</h3>
-          <p>£4.99/month</p>
-          <p>Watch in Full HD on two devices.</p>
-          <button class="btn">Get Started</button>
+      <!-- Hero Section -->
+      <section id="background-image">
+        <div id="image-div">
+          <img
+            id="hero-img"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/925/original/GB-en-20240617-popsignuptwoweeks-perspective_alpha_website_small.jpg?1719063356"
+            alt="Netflix shows"
+          />
         </div>
-        <div>
-          <h3>Standard</h3>
-          <p>£10.99/month</p>
-          <p>HD streaming on up to two devices. No adverts.</p>
-          <button class="btn">Get Started</button>
+        <div id="background-content">
+          <h1 class="hero-text">Unlimited films, TV programmes and more</h1>
+          <h2 class="subheading">Watch anywhere. Cancel at any time.</h2>
+          <h3 class="get-started">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div class="form-container">
+            <form
+              aria-label="Ready to watch? Enter your email to create or restart your membership."
+              id="form"
+              action="https://www.freecodecamp.com/email-submit"
+            >
+              <input
+                name="email"
+                id="email"
+                type="email"
+                placeholder="Email address"
+                required=""
+                class="form-input"
+              />
+              <input
+                id="submit"
+                type="submit"
+                value="Get Started"
+                class="form-submit btn"
+              />
+            </form>
+          </div>
         </div>
-        <div>
-          <h3>Premium</h3>
-          <p>£17.99/month</p>
-          <p>4K streaming on up to four devices. No adverts.</p>
-          <button class="btn">Get Started</button>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Footer Section -->
-    <footer>
-      <img
-        id="footer-img"
-        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/912/original/BrandAssets_Logos_02-NSymbol.jpg?1719058164"
-      />
-      <div class="footer-links">
-        <a href="#">FAQ</a>
-        <a href="#">Help Center</a>
-        <a href="#">Account</a>
-        <a href="#">Media Center</a>
-        <a href="#">Investor Relations</a>
-        <a href="#">Jobs</a>
-        <a href="#">Terms of Use</a>
-        <a href="#">Privacy</a>
-        <a href="#">Contact Us</a>
-      </div>
-      <p>© 2024 Movie Streaming Service, Inc.</p>
-    </footer>
+      <!-- Features Section -->
+      <section id="features">
+        <div>
+          <h2 class="subheading-main">Enjoy everywhere</h2>
+          <p>
+            Stream unlimited films and TV programmes on your phone, tablet,
+            laptop and TV.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/904/original/Screenshot_2024-06-22_113847.png?1719052765"
+            alt="Streaming on multiple devices image"
+          />
+        </div>
+      </section>
+      <hr />
+      <section id="stories">
+        <div class="video-content">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/c-4o_LnfNXI?si=Zi39bJrsQaQ5Q78Y"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            id="video"
+          ></iframe>
+        </div>
+        <div class="text-content">
+          <h2 class="subheading-main">Watch anywhere</h2>
+          <p>Watch on a plane, train or submarine...</p>
+        </div>
+      </section>
+      <hr />
+      <!-- Pricing Section -->
+      <section id="pricing">
+        <h2 class="subheading-main">Choose the plan that’s right for you</h2>
+        <div>
+          <div>
+            <h3>Standard with adverts</h3>
+            <p>£4.99/month</p>
+            <p>Watch in Full HD on two devices.</p>
+            <button class="btn">Get Started</button>
+          </div>
+          <div>
+            <h3>Standard</h3>
+            <p>£10.99/month</p>
+            <p>HD streaming on up to two devices. No adverts.</p>
+            <button class="btn">Get Started</button>
+          </div>
+          <div>
+            <h3>Premium</h3>
+            <p>£17.99/month</p>
+            <p>4K streaming on up to four devices. No adverts.</p>
+            <button class="btn">Get Started</button>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- Footer Section -->
+      <footer>
+        <div class="footer-container">
+          <div class="footer-links">
+            <a href="#">FAQ</a>
+            <a href="#">Help Center</a>
+            <a href="#">Account</a>
+            <a href="#">Media Center</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Jobs</a>
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+        <div class="footer-info">
+          <p>© 2024 Movie Streaming Service, Inc.</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
