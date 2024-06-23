@@ -292,6 +292,28 @@ footer {
   color: var(--secondary-color);
 }
 
+.footer-details {
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.link {
+  color: var(--secondary-color);
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+.link:hover {
+  background-color: var(--button-bg-color);
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 /* Media queries for responsiveness */
 
 @media (max-width: 1024px) {
@@ -350,6 +372,6 @@ footer {
   }
 
   nav ul li {
-    margin: 0 10px;
+    margin: 0 5px;
   }
 }
