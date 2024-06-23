@@ -15,7 +15,7 @@
   --primary-color: #e50914;
   --background-color: #000000;
   --text-color: #ffffff;
-  --subheading-color: #b3b3b3;
+  --secondary-color: #b3b3b3;
   --button-bg-color: #e50914;
   --button-hover-bg-color: #f40612;
 }
@@ -186,4 +186,41 @@ input[type="submit"] {
 
 .form-submit:hover {
   background-color: var(--button-hover-bg-color);
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.subheading-main {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+hr {
+  border: 3px solid rgb(185, 185, 185, 0.5);
+  margin: 40px 0;
+}
+
+#features,
+#stories {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  justify-items: center;
+  padding: 60px 20px;
+}
+
+#features img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
